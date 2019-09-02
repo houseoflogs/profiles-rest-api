@@ -25,7 +25,10 @@ SECRET_KEY = '^hkixsr+i^dk#!8jar)y5*rp^*4i861_1rzq5rh&fqy1eeba@@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(int(os.environ.get('DEBUG', 1)))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'communeapi.com',
+    '127.0.0.1'
+]
 
 
 # Application definition
